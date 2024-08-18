@@ -1,3 +1,5 @@
+// https://modoocode.com/253
+
 #include <iostream>
 #include <string>
 using std::string;
@@ -61,7 +63,7 @@ void explicit_example() {
 }
 //=================================================================================================
 class Person {
-  mutable string name;
+  mutable string name; // const 함수에서도 변경 가능
   int age;
   public:
     Person(string name, int age): name(name), age(age) {};

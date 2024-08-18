@@ -1,3 +1,5 @@
+// https://modoocode.com/198
+
 #include <iostream>
 
 // string.h 는 strlen 때문에 include 했는데, 사실 여러분이 직접 strlen
